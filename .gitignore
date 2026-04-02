@@ -22,3 +22,13 @@ Thumbs.db
 
 # Linux
 *.tmp
+
+# Executáveis
+Program
+programa
+grafo
+
+# Pastas de build
+build/
+.vscode/
+tasks.json
