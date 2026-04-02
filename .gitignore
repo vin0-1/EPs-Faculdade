@@ -1,0 +1,24 @@
+# Compilados
+*.o
+*.obj
+*.exe
+*.out
+a.out
+program
+
+# VSCode
+.vscode/
+
+# Backup
+*~
+*.swp
+*.bak
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Linux
+*.tmp
