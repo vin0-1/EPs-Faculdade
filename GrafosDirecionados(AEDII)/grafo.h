@@ -14,9 +14,14 @@ typedef struct
     no* inicio;
 } vertice;
 
-void Inicilizar(int v, vertice* g);
+void Inicializar(int v, vertice* g);
 void InsereAresta(vertice* g, int v1, int n);
 bool RemoveAresta(vertice* g, int v1, int n);
 bool ArestaExiste(vertice* g, int v1, int n);
 void PrintGrafo(vertice* g, int n);
-void ContadorLacos(vertice* g, int v1);
+void ContadorLacos(vertice* g, int v);
+bool RemoveLacos(vertice* g, int v);
+void DestruirGrafo(vertice* g, int v);
+void GrafoTransposto(vertice* g, int v);
+
+
